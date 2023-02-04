@@ -1,6 +1,6 @@
 # Nested Modules
 
-The example shows how you can use one repository for nested modules written on Go. Each submodule has unique tag,
+Shows how you can use one repository for nested modules written on Go. Each submodule has unique tag,
 
 ```sh
 git clone git@github.com:tullo/nested-modules.git
@@ -10,3 +10,10 @@ git tag -l
 # lib/v0.0.1
 ```
 
+Start example app
+
+```sh
+go get github.com/tullo/nested-modules/lib
+go run app/main.go 
+08:57:12
+```
