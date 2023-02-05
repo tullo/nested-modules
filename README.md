@@ -25,3 +25,5 @@ The general best practice is to put your `go.mod` file at the root of the repo, 
 > It is possible to define multiple modules within a single repository, but doing so adds a lot of maintenance overhead: if you have multiple modules, they are treated as completely separate; you have to explicitly manage the dependencies between them, and you have to explicitly tag separate releases for them.
 
 [For most projects, that extra overhead comes with very little benefit](https://stackoverflow.com/questions/67448535/how-do-i-create-a-nested-go-module-within-a-repository)
+
+See also [Code organization](https://go.dev/doc/code)
